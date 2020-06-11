@@ -87,9 +87,7 @@ jobs:
             source:
               repository: ruby
           inputs:
-            - name: pay-tech-docs
-          outputs:
-            - name: pay-tech-docs/build
+            - name: pull-request
           caches:
             - path: pay-tech-docs/vendor
           run:
